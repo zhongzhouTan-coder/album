@@ -1,2 +1,5 @@
 /target
-/Cargo.lock
+/dist
+/node_modules
+/wasm_pkg
+/.vscode
