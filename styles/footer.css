@@ -1,0 +1,26 @@
+.site-footer {
+    background-color: var(--neutral-off-white);
+    padding: 10px 20px;
+    font-size: 1rem;
+    line-height: 24px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    color: var(--neutral-dark-gray);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.footer-link:hover {
+    color: var(--primary-green);
+}

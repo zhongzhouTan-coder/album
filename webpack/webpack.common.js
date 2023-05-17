@@ -23,6 +23,7 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: './public/template.html',
 			favicon: './public/favicon.ico',
+			filename: 'index.html',
 		}),
 		new WasmPackPlugin({
 			crateDirectory: path.resolve(__dirname, "."),
@@ -42,6 +43,7 @@ module.exports = {
 		asyncWebAssembly: true,
 	},
 	devServer: {
+		historyApiFallback: true,
 		port: 3000,
 	},
 }

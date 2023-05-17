@@ -1,0 +1,33 @@
+.site-header {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.site-header header {
+	  background-color: var(--primary-dark-blue);
+	  padding: 10px 20px;
+}
+
+.header-left {
+	display: flex;
+  	align-items: center;
+  	gap: 40px;
+}
+
+.navbar-brand {
+	color: var(--neutral-off-white);
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navbar-link {
+	color: var(--neutral-off-white);
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+.navbar-link:hover {
+	color: var(--secondary-light-blue);
+}
